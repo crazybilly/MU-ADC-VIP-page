@@ -1,0 +1,267 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"> 
+<html>
+<head>
+	<link rel="stylesheet" href="reset.css" type="text/css">
+	<link rel="stylesheet" href="style.css" type="text/css">
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js" type="text/javascript"></script>
+	<script language="javascript" src="vip.js"></script>
+</head>
+<body>
+<div id="seal">
+<div id="outer-wrapper">
+	<div id="header">
+
+		<h1>myMILLIKIN</h1>
+
+	</div><!--header-->
+
+	<div id="content">
+		<div id="sidebar">
+
+			<h3>Menu</h3>
+			<ul>
+				<li id="sidebar-email">
+					<a href="#">
+						<img src="icons/email.gif" class="icon">
+						<p>Check your email</p>
+					</a>
+				</li>
+
+				<li id="sidebar-directory">
+					<a href="#">
+						<img src="icons/directory.gif" class="icon">
+						<p>Alumni directory</p>
+					</a>
+				</li>
+
+				<li id="sidebar-give">
+					<a href="#">
+						<img src="icons/give.gif" class="icon">
+						<p>Give to Millikin</P>
+					</a>
+				</li>
+
+				<li id="sidebar-transcript">
+					<a href="#">
+						<img src="icons/transcript.gif" class="icon">
+						<p>Order a transcript</p>
+					</a>
+				</li>
+
+				<li id="sidebar-submit-news">
+					<a href="#">
+						<img src="icons/news.gif" class="icon">
+						<p>Submit your news</p>
+					</a>
+				</li>
+
+				<li id="sidebar-quarterly">
+					<a href="#">
+						<img src="icons/quarterly.gif" class="icon">
+						<p>Read the Quarterly</p>
+					</a>
+				</li>
+
+
+
+		</div><!--sidebar-->
+
+		<div id="main-content">
+		
+			<div id="update-wrapper" class="pane-wrapper">
+				<div id="update-left" class="left">
+
+					<h3>Stay Up To Date</h3>
+					<div class="i">
+						<p>Keeping your information up to date with Millikin helps you stay connected to your alma mater.</p>
+						<p>With good contact info, you'll always know what's going on.</p>
+
+
+				</div><!--i-->
+				</div><!--update-left-->
+
+				<div id="update-right" class="right">
+					
+					<h3>Our Records Show</h3>
+					<div class="i">
+						<dl>
+							<dt>Address</dt>
+							<dd>123 Easy St.<br>
+							Decatur IL 62521</dd>
+							<br>
+							<br>
+
+							<dt>Phone</dt>
+							<dd>(123) 456-7890</dd>
+							<br>
+							<br>
+
+							<dt>Email</dt>
+							<dd>something@gmail.com</dd>
+						</dl>
+
+					</div><!--i-->
+		<!-- fix the id of this div here and in the js -->
+					<div id="update-inner">
+						<h3>Update Your Info</h3>
+					<div class="i">
+						<p>Make any necessary changes to your info below.</p>
+						<p>Click 'Submit' and we'll update your record right away.</p>
+
+						<form>
+							<table>
+								<tr><td class="form-label"><label for="Address">Address</label></td>
+								<td><input type="text" name="Address" value="123 Easy St" id="Address"></td></tr>
+	
+								<tr><td class="form-label"><label for="City">City</label></td>
+								<td><input type="text" name="City" value="Decatur" id="City"></td></tr>
+	
+								<tr><td class="form-label"><label for="State">State</label></td>
+								<td><input type="text" name="State" value="IL" id="State"></td></tr>
+
+								<tr><td class="form-label"><label for="Zip">Zip</label></td>
+								<td><input type="text" name="Zip" value="62521" id="Zip"></td></tr>
+
+								<tr><td class="form-label"><label for="Home Phone">Home Phone</label></td>
+								<td><input type="text" name="Home Phone" value="(123) 456-7890" id="Home Phone"></td></tr>
+
+								<tr><td class="form-label"><label for="Email">Email</label></td>
+								<td><input type="text" name="Email" value="something@gmail.com" id="Email"></td></tr>
+							</table>
+
+					<h4><a href="#" id="work-collapser" class="toggle-button inner">Update Your Work Info</a></h4>
+					<div id="update-work">
+						<form>
+							<table>
+								<tr><td class="form-label"><label for="Address">Address</label></td>
+								<td><input type="text" name="Address" value="123 Easy St" id="Address"></td></tr>
+	
+								<tr><td class="form-label"><label for="City">City</label></td>
+								<td><input type="text" name="City" value="Decatur" id="City"></td></tr>
+	
+								<tr><td class="form-label"><label for="State">State</label></td>
+								<td><input type="text" name="State" value="IL" id="State"></td></tr>
+
+								<tr><td class="form-label"><label for="Zip">Zip</label></td>
+								<td><input type="text" name="Zip" value="62521" id="Zip"></td></tr>
+
+								<tr><td class="form-label"><label for="Home Phone">Home Phone</label></td>
+								<td><input type="text" name="Home Phone" value="(123) 456-7890" id="Home Phone"></td></tr>
+
+								<tr><td class="form-label"><label for="Email">Email</label></td>
+								<td><input type="text" name="Email" value="something@gmail.com" id="Email"></td></tr>
+							</table>
+					</div><!--update-work-->
+
+					<input type="submit" value="Submit" class="action-button " id="update-submit">
+				</form>
+
+				<p>New baby? Earned a new degree? Have relatives at Millikin? Use our <a href="https://www.millikin.edu/alumni/stayconnected/Lists/Update Your Information/NewForm.aspx">in-depth form</a>.</p>
+
+	
+					</div><!--i-->
+					</div><!--update-inner-->
+
+
+
+					<!--the outside collapser button-->
+					<a href="#" id="update-collapser" class="toggle-button">&darr; Click to update your record &darr;</a>
+
+
+				</div><!--update-right-->
+		
+			</div><!--update-wrapper-->
+			<div class="whole" id="your-giving">
+				<h3>Your Giving</h3>
+					<div class="i">
+						<dl class="giving numbers">
+							<div class="number-group">
+								<dt>Lifetime Giving</dt>
+								<dd>$12345.67</dd>
+							</div>
+
+							<div class="number-group">
+								<dt>This Fiscal Year</dt>
+								<dd>$901.23</dd>
+							</div>
+						</dl>
+
+					</div><!--i-->
+					<div class="cl">
+						&nbsp;
+					</div>
+			</div><!--your-giving-->
+
+			<div class="whole" id="loyalty club">
+				<h3>Are you a MU Loyalty Club member?</h3>
+					<div class="subtitle">Learn more by clicking <a href="http://www.millikin.edu/alumni/getinvolved/loyalblue/Pages/requirements.aspx">here</a></div>
+					<div class="i">
+						<h4><a href="https://onlinepay.millikin.edu/ustores/web/store_main.jsp?STOREID=1&SINGLESTORE=true">Make a gift</a></h4>
+						<h4>Keep in touch</h4>					
+							<div class="aside">
+								<ul style="list-style: square outside none; padding-left: 1.2em;">
+									</li><li>Submit an Update Your Info form.
+									</li><li>Submit a Class Note.
+									</li><li>Comment, post or tag a photo on a MU Alumni social media account:
+										<ul style="list-style: circle outside none; padding-left: 1.2em;">
+											<li>Facebook
+											</li><li>Twitter
+											</li><li>LinkedIn
+										</li></ul>
+								</li></ol>>
+									<li><a href="http://www.millikin.edu/alumni/stayconnected/Lists/Update%20Your%20Information/NewForm.aspx?Source=/alumni/stayconnected/Pages/ThankYou.aspx">Submit an Update Your Info form.</a>
+									<li>Submit a Class Note.
+									<li>Comment, post or tag a photo on a MU Alumni social media account:
+										<ul>
+											<li>Facebook
+											<li>Twitter
+											<li>LinkedIn
+										</ul>
+								</ol>
+							</div><!--aside-->
+						<h4>Stay involved and give back</h4>
+						No
+						<div class="aside">
+								To meet this requirement you must do one of the following:
+								<ol>
+									<li>Submit an Update Your Info form.
+									<li>Submit a Class Note.
+									<li>Comment, post or tag a photo on a MU Alumni social media account:
+										<ul>
+											<li>Facebook
+											<li>Twitter
+											<li>LinkedIn
+										</ul>
+								</ol>
+							</div><!--aside-->
+					</div><!--i-->
+
+			</div><!--loyalty club-->
+		
+		</div><!-- main content-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div id="footer">
+			<img src="https://my.millikin.edu/muportal/common/images/footer.gif">
+		</div><!--footer-->
+
+		</div><!--main-content-->
+	</div><!--content-->
+</div><!--outer-wrapper-->
+</div><!--seal-->
+</body>
+</html>
