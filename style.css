@@ -124,6 +124,7 @@ a:visited {
 			font-weight: bold;
 			font-size: 1.05em;
 			vertical-align: center;
+			list-style: none;
 		}
 
 
@@ -197,11 +198,13 @@ a:visited {
 		}
 		
 		.subtitle {
-			width: 700px;
+			width: 699px;
 			padding-bottom: 12px;
 			padding-left: 20px;
-			background-color: #827C78;
+			background-color: #E0EBF6;
 			color: #003657;
+			border-right: 1px solid #B3B1B1;
+			text-align: center;
 		}
 
 
