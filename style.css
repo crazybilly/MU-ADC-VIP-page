@@ -28,6 +28,7 @@ h3 {
 
 h4 {
 	border-bottom: 1px dashed #E2E2E2;
+	margin-top: 6px;
 }
 
 p {
@@ -148,6 +149,7 @@ a:visited {
 				float: left;
 				margin-right: 15px;
 			}
+			
 
 			#sidebar li p {
 				display: block;
@@ -163,6 +165,11 @@ a:visited {
 		border-bottom: 0;
 		border-left: 0;
 
+	}
+	
+	.smicon {
+		height: 45px;
+		padding-top: 5px;
 	}
 
 	.i {
