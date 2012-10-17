@@ -28,7 +28,7 @@ h3 {
 
 h4 {
 	border-bottom: 1px dashed #E2E2E2;
-	margin-top: 6px;
+	margin-top: 1.5em;
 }
 
 p {
@@ -46,7 +46,6 @@ dd {margin-bottom: 1em; }
 
 a { 
 	color: #827C78;
-	font-weight: bold;
 }
 
 a:active {
