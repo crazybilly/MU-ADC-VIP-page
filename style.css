@@ -165,10 +165,20 @@ a:visited {
 		border-left: 0;
 
 	}
+
+
+	#main-content ul {
+		list-style: disc outside none; 
+		padding-left: 1.2em;
+	}
+
+	#main-content ul ul {
+		list-style: circle outside none;
+	}
 	
 	.smicon {
 		height: 45px;
-		padding-top: 5px;
+		padding-top: 12px;
 	}
 
 	.i {
@@ -254,6 +264,15 @@ a:visited {
 		margin-bottom: .25em;
 		color: rgb(0,85,16);
 	}
+
+/* Loyalty Club stuff */
+
+	.checkbox {
+		padding-right: 12px;
+		vertical-align: middle;
+	}
+
+		
 
 
 
