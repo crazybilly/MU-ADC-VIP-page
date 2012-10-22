@@ -111,17 +111,28 @@
 
 						<form>
 							<table>
-								<tr><td class="form-label"><label for="Address">Address</label></td>
-								<td><input type="text" name="Address" value="123 Easy St" id="Address"></td></tr>
+								<tr><td class="form-label"><label for="Address">Address</label>
+								<td><select>
+								<option value="123 Easy Street">123 Easy Street</option>
+								<option value="124 Easy Street">124 Easy Street</option></select></td></tr>
+								<!-- <td><input type="text" name="Address" value="123 Easy St" id="Address"></td></tr> -->
 	
 								<tr><td class="form-label"><label for="City">City</label></td>
 								<td><input type="text" name="City" value="Decatur" id="City"></td></tr>
 	
 								<tr><td class="form-label"><label for="State">State</label></td>
-								<td><input type="text" name="State" value="IL" id="State"></td></tr>
+								<td class="form-input check"><input type="checkbox" name="State" value="IL" id="State">IllinoisIllinois<br>
+								<input type="checkbox" name="State" value="IN">IndianaIndiana<br>
+								<input type="checkbox" name="State" value="IL" id="State">IllinoisIllinois<br>
+								<input type="checkbox" name="State" value="IN">IndianaIndiana<br>
+								<input type="checkbox" name="State" value="IL" id="State">IllinoisIllinois<br>
+								<input type="checkbox" name="State" value="IN">IndianaIndiana</td></tr>
 
 								<tr><td class="form-label"><label for="Zip">Zip</label></td>
-								<td><input type="text" name="Zip" value="62521" id="Zip"></td></tr>
+								<td class="form-input radio"><input type="radio" name="Zip" value="62521">6252162521<br>
+								<input type="radio" name="Zip" value="62522">6252262522<br>
+								<input type="radio" name="Zip" value="62521">6252162521<br>
+								<input type="radio" name="Zip" value="62522">6252262522</td></tr>
 
 								<tr><td class="form-label"><label for="Home Phone">Home Phone</label></td>
 								<td><input type="text" name="Home Phone" value="(123) 456-7890" id="Home Phone"></td></tr>
@@ -154,7 +165,7 @@
 							</table>
 					</div><!--update-work-->
 
-					<input type="submit" value="Submit" class="action-button " id="update-submit">
+					<input type="submit" value="Submit" class="button" id="update-submit">
 				</form>
 
 				<p>New baby? Earned a new degree? Have relatives at Millikin? Use our <a href="https://www.millikin.edu/alumni/stayconnected/Lists/Update Your Information/NewForm.aspx">in-depth form</a>.</p>
@@ -231,6 +242,7 @@
 									<ul style="list-style: none;">
 									<li>If you have any questions or are interested in any of the above, please <a href="mailto:alumnews@millikin.edu">contact our office</a>
 									</li></ul>	
+									
 								</ol>
 							</div><!--aside-->
 					</div><!--i-->
