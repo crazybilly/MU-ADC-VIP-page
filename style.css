@@ -34,9 +34,17 @@ h4 {
 p {
 	margin: 1em 0;
 }
+
+
 ul {
 	list-style: square outside none;
-	paddling-left: 1.2em;	}
+	paddling-left: 1.2em;	
+}
+
+ol {
+	list-style: decimal outside none;
+	paddling-left: 1.2em;	
+}
 	
 dl { margin-top: 1em; }
 dt,dd { display: inline; }
