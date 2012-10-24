@@ -37,8 +37,12 @@ p {
 
 
 ul {
-	list-style: square outside none;
+	list-style: disc outside none;
 	paddling-left: 1.2em;	
+}
+
+ul ul {
+	list-style: square outside none;
 }
 
 ol {
@@ -69,6 +73,36 @@ a:hover {
 a:visited {
 	color: #827C78;
 }
+
+
+blockquote	{
+	margin: 1em 3em;
+	color: #827C78;
+	border-left: 2px solid #827C78;
+	padding-left: 1em; 
+}
+
+fieldset	{
+	padding: 1em;
+	border: 1px solid;
+	background: #E7E8E9;
+	font-size: 80%;
+}
+label	{
+	float:left;
+	width:25%;
+	margin-right:0.5em;
+	padding-top: 0.2em;
+	text-align: right;
+	font-weight: bold;
+}
+
+legend	{
+	padding: 0.2em 0.5em;
+	border: 1px;
+	text-align: right;
+}
+
 
 
 /* layout */
@@ -273,16 +307,13 @@ a:visited {
 		color: rgb(0,85,16);
 	}
 
+
 /* Loyalty Club stuff */
 
 	.checkbox {
 		padding-right: 12px;
 		vertical-align: middle;
 	}
-
-		
-
-
 
 
 
@@ -457,33 +488,10 @@ a:visited {
 	margin: 10px 0 10px 20px;
 }
 
-blockquote	{
-	margin: 1em 3em;
-	color: #827C78;
-	border-left: 2px solid #827C78;
-	padding-left: 1em; 
-}
 
-fieldset	{
-	padding: 1em;
-	border: 1px solid;
-	background: #E7E8E9;
-	font-size: 80%;
-}
-label	{
-	float:left;
-	width:25%;
-	margin-right:0.5em;
-	padding-top: 0.2em;
-	text-align: right;
-	font-weight: bold;
-}
 
-legend	{
-	padding: 0.2em 0.5em;
-	border: 1px;
-	text-align: right;
-}
+
+/* styles for data tables */
 
 .datatable	{
 	border:1px solid gray;
@@ -494,13 +502,18 @@ legend	{
 	
 }
 
-.datatable th, .datatable td	{
-	border: 1px solid gray;
-	padding: .4em 1em;
-}
-.even	{
-	background:#CFD6D5;
-}
+	.datatable th, .datatable td	{
+		border: 1px solid gray;
+		padding: .4em 1em;
+	}
+	
+	/* zebra striping for tables */
+	.even	{
+		background:#CFD6D5;
+	}
+
+
+/* various misc useful classes */
 
 .full	{
 	width:100%;
@@ -528,11 +541,4 @@ legend	{
 
 .fright	{
 	float:right;
-}
-	
-	
-
-	
-	
-
 }
