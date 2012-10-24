@@ -89,6 +89,7 @@
 							<dt>Address</dt>
 							<dd>123 Easy St.<br>
 							Decatur IL 62521</dd>
+
 							<br>
 							<br>
 
@@ -102,6 +103,7 @@
 						</dl>
 
 					</div><!--i-->
+					
 		<!-- fix the id of this div here and in the js -->
 					<div id="update-inner">
 						<h3>Update Your Info</h3>
@@ -140,7 +142,23 @@
 								<tr><td class="form-label"><label for="Email">Email</label></td>
 								<td><input type="text" name="Email" value="something@gmail.com" id="Email"></td></tr>
 							</table>
-
+							
+							<table class="datatable">
+							<tr>
+							<th>First Name</th>
+							<th>E-Mail</th>
+							</tr>
+							<tr>
+							<td>John</td>
+							<td>jdoen@millikin.edu</td>
+							</tr>
+							<tr>
+							<td>Jane</td>
+							<td>jadoe@millikin.edu</td>
+							</tr>
+							</table>
+							
+		
 					<h4><a href="#" id="work-collapser" class="toggle-button inner">Update Your Work Info</a></h4>
 					<div id="update-work">
 						<form>
@@ -160,9 +178,24 @@
 								<tr><td class="form-label"><label for="Home Phone">Home Phone</label></td>
 								<td><input type="text" name="Home Phone" value="(123) 456-7890" id="Home Phone"></td></tr>
 
-								<tr><td class="form-label"><label for="Email">Email</label></td>
+								<tr><td class="form-label"><label for="Email">E-Mail</label></td>
 								<td><input type="text" name="Email" value="something@gmail.com" id="Email"></td></tr>
+							
+							
+							
+							<fieldset>
+							<legend>Update Info</legend>
+							<label for="name">Name:</label>
+							<input type="text" name="name" id="name" />
+							<br />
+							<label for="mail">E-mail:</label>
+							<input type="text" name="mail" id="mail" />
+							<br />
+							<label for="address">Address:</label>
+							<input type="text" name="Address" id="address" size="40" />
+							</fieldset>
 							</table>
+							</form>
 					</div><!--update-work-->
 
 					<input type="submit" value="Submit" class="button" id="update-submit">

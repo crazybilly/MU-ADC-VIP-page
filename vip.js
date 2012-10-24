@@ -26,6 +26,23 @@ $(document).ready(function(){
 				$('#update-work').slideUp();
 				$('#update-submit').removeClass('open');
 			});
+	
+	
+	
+	/*zebra striping*/
+	$('.datatable').find('tr:odd').addClass('even');
+	
+	/*hide*/
+	$('.hide').hide();
+	
+	/*original toggler, toggels the next sibling*/
+	$('.togglecontrol').next().hide();
+	$('.togglecontrol').toggle(
+	function () {
+	$(this).next().slideDown();
+	}, function () {
+	$(this).next().slideUp();
+	});
 
 }); /* close the document */
 
