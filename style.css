@@ -34,9 +34,17 @@ h4 {
 p {
 	margin: 1em 0;
 }
+
+
 ul {
 	list-style: square outside none;
-	paddling-left: 1.2em;	}
+	paddling-left: 1.2em;	
+}
+
+ol {
+	list-style: decimal outside none;
+	paddling-left: 1.2em;	
+}
 	
 dl { margin-top: 1em; }
 dt,dd { display: inline; }
@@ -165,10 +173,20 @@ a:visited {
 		border-left: 0;
 
 	}
+
+
+	#main-content ul {
+		list-style: disc outside none; 
+		padding-left: 1.2em;
+	}
+
+	#main-content ul ul {
+		list-style: circle outside none;
+	}
 	
 	.smicon {
 		height: 45px;
-		padding-top: 5px;
+		padding-top: 12px;
 	}
 
 	.i {
@@ -254,6 +272,15 @@ a:visited {
 		margin-bottom: .25em;
 		color: rgb(0,85,16);
 	}
+
+/* Loyalty Club stuff */
+
+	.checkbox {
+		padding-right: 12px;
+		vertical-align: middle;
+	}
+
+		
 
 
 
@@ -436,8 +463,3 @@ blockquote	{
 	border-left: 2px solid #827C78;
 	padding-left: 1em; 
 }
-<<<<<<< HEAD
-	
-=======
-	
->>>>>>> 2cf6533... various extraneous CSS work
