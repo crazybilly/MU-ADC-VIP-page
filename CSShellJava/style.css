@@ -38,7 +38,7 @@ p {
 
 ul {
 	list-style: disc outside none;
-	paddling-left: 1.2em;	
+	padding-left: 1.2em;	
 }
 
 ul ul {
@@ -47,7 +47,7 @@ ul ul {
 
 ol {
 	list-style: decimal outside none;
-	paddling-left: 1.2em;	
+	padding-left: 1.2em;	
 }
 	
 dl { margin-top: 1em; }
@@ -57,7 +57,7 @@ dd {margin-bottom: 1em; }
 
 
 a { 
-	color: #827C78;b
+	color: #827C78;
 }
 
 a:active {
@@ -302,7 +302,7 @@ legend	{
 	.numbers dd {
 		font-size: 1.2em;
 		font-weight: bold;
-		font-family: Georgia;
+		font-family: Georgia, sans-serif;
 		margin-bottom: .25em;
 		color: rgb(0,85,16);
 	}
@@ -337,10 +337,6 @@ legend	{
 	margin: auto; /* works in IE? */
 	width: 75%;
 	display: block;
-	/*keep it in the div so you don't bork your design 
-		position: relative;
-		top: 13px;  	/* change this to move button up/down 
-	  */
 
 
 	font-size: .85em;
