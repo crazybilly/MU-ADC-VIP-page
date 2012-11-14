@@ -7,7 +7,7 @@ body {
 	color: #827C78;
 }
 
-h1,h2,h3,h4,h5,h6,h7 {
+h1,h2,h3,h4,h5,h6 {
 	font-weight: bold;
 	color: #395775;
 	margin-bottom: .25em;
@@ -24,23 +24,13 @@ h3 {
 	padding-left:  20px;
 	color: white;
 	background: #003657;
-	width: 699px
-	
 }
 
 h4 {
 	border-bottom: 1px dashed #E2E2E2;
 	margin-top: 1.5em;
 }
-h5 {
-	font-size:1.5em;
-	margin: 0 0 0 0;
-	padding-left: 20px;
-	color: white;
-	background: #003657;
-	width: 100%;
-	
-}
+
 p {
 	margin: 1em 0;
 }
@@ -159,9 +149,6 @@ legend	{
 		margin: 0;
 		padding: 0;
 		border-top: 1px solid #B3B1B1;
-	}
-	#sidebar h5 {
-	width: 221px;
 	}
 	
 		#sidebar ul {
