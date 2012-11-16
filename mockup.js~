@@ -2,7 +2,7 @@ $(document).ready(function(){
 
 	/* when the page loads, hide the update thingy */
 	$('.update-inner').hide();
-	$('.update-work').hide();
+	$('#update-work').hide();
 
 	/* toggle the whole update section */
 	$('#update-collapser').toggle (
@@ -19,11 +19,11 @@ $(document).ready(function(){
 	/* toggle the work section */
 	$('#work-collapser').toggle (
 			function () {
-				$('.update-work').slideDown();
+				$('#update-work').slideDown();
 				$('#update-submit').addClass('open');
 				
 			}, function () {
-				$('.update-work').slideUp();
+				$('#update-work').slideUp();
 				$('#update-submit').removeClass('open');
 			});
 	

@@ -19,7 +19,7 @@
 	<div id="content">
 		<div id="sidebar">
 
-			<h3>Menu</h3>
+			<h5>Menu</h5>
 			<ul>
 				<li id="sidebar-email">
 					<a href="https://my.millikin.edu/muportal/secure/sso/webmail/webmailLogin.jsp">
@@ -72,9 +72,9 @@
 			<div id="update-wrapper" class="pane-wrapper">
 				<div id="update-left" class="left">
 
-					<h3>Stay Up To Date</h3>
+					<h5>Stay Up To Date</h5>
 					<div class="i">
-					<
+					
 						<p>Keeping your information up to date with Millikin helps you stay connected to your alma mater.</p>
 						<p>With good contact info, you'll always know what's going on.</p>
 
@@ -84,7 +84,7 @@
 
 				<div id="update-right" class="right">
 					
-					<h3>Our Records Show</h3>
+					<h5>Our Records Show</h5>
 					<div class="i">
 						<dl>
 							<dt>Address</dt>
@@ -199,7 +199,7 @@
 							<input type="text" name="Address" id="address" size="40" />
 							</fieldset> -->
 							</table>
-							</form>
+						</form>
 					</div><!--update-work-->
 
 					<input type="submit" value="Submit" class="button" id="update-submit">
@@ -215,13 +215,13 @@
 
 					<!--the outside collapser button-->
 					<a href="#" id="update-collapser" class="toggle-button">&darr; Click to update your record &darr;</a>
-					<a href="#" id="update-collapser" class="toggle-button">&uarr; Click to close this section &uarr;");</a>
-					$('#update-collapser').html("&uarr; Click to close this section &uarr;");
+			
 
 
 				</div><!--update-right-->
 		
 			</div><!--update-wrapper-->
+			
 			<div class="whole" id="your-giving">
 				<h3>Your Giving</h3>
 					<div class="i">
@@ -244,7 +244,7 @@
 			</div><!--your-giving-->
 
 			<div class="whole" id="loyalty club">
-				<h3>Are you an MU Loyalty Club member?</h3>
+				<h3>Are you a member of the MU Loyalty Club?</h3>
 					<div class="subtitle">Learn more by clicking <a href="http://www.millikin.edu/alumni/getinvolved/loyalblue/Pages/requirements.aspx">here</a></div>
 					<div class="i">
 						<h4><img src="http://static.askadmissions.net/millikinadvance/usermedia/VIP resources/check_box.png" class="icon checkbox" >Make a gift</h4>

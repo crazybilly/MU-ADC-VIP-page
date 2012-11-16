@@ -1,8 +1,13 @@
 $(document).ready(function(){
 
 	/* when the page loads, hide the update thingy */
+	$('#VipCell2').find('input').slice(0,5).closest('table').addClass('update-inner');
+	$('#VipCell2').find('select').slice(0).closest('table').addClass('update-inner');
+	$('#VipCell2').find('input').slice(5,11).closest('table').addClass('update-work');
+	$('#VipCell2').find('select').slice(-1).closest('table').addClass('update-work');
 	$('.update-inner').hide();
 	$('.update-work').hide();
+	
 
 	/* toggle the whole update section */
 	$('#update-collapser').toggle (
