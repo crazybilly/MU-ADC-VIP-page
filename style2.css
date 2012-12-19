@@ -1,0 +1,440 @@
+
+body {
+    background: none repeat scroll 0 0 #F7F7F7;
+    color: #827C78;
+    font-family: Tahoma,sans-serif;
+    font-size: 0.9em;
+    line-height: 1.5;
+    text-align: center;
+}
+h1, h2, h3, h4, h5, h6, h7 {
+    color: #395775;
+    font-weight: bold;
+    margin-bottom: 0.25em;
+    text-transform: uppercase;
+}
+h1 {
+    font-size: 2em;
+}
+h3 {
+    background: none repeat scroll 0 0 #003657;
+    color: white;
+    font-size: 1.5em;
+    margin: 0;
+    padding-left: 20px;
+    width: 700px;
+}
+h4 {
+    border-bottom: 1px dashed #E2E2E2;
+    margin-top: 1.5em;
+}
+h5 {
+    background: none repeat scroll 0 0 #003657;
+    color: white;
+    font-size: 1.5em;
+    margin: 0;
+    padding-left: 20px;
+    width: 95%;
+}
+p {
+    margin: 1em 0;
+}
+ul {
+    list-style: disc outside none;
+    padding-left: 1.2em;
+}
+ul ul {
+    list-style: square outside none;
+}
+ol {
+    list-style: decimal outside none;
+    padding-left: 1.2em;
+}
+dl {
+    margin-top: 1em;
+}
+dt, dd {
+    display: inline;
+}
+dt {
+    font-weight: bold;
+}
+dd {
+    margin-bottom: 1em;
+}
+a {
+    color: #827C78;
+}
+a:active {
+    color: #CCCCCC;
+    position: relative;
+    top: 1px;
+}
+a:hover {
+    color: #C2BCB8;
+}
+a:visited {
+    color: #827C78;
+}
+blockquote {
+    border-left: 2px solid #827C78;
+    color: #827C78;
+    margin: 1em 3em;
+    padding-left: 1em;
+}
+fieldset {
+    background: none repeat scroll 0 0 #E7E8E9;
+    border: 1px solid;
+    font-size: 80%;
+    padding: 1em;
+}
+label {
+    float: left;
+    font-weight: bold;
+    margin-right: 0.5em;
+    padding-top: 0.2em;
+    text-align: right;
+    width: 25%;
+}
+legend {
+    border: 1px none;
+    padding: 0.2em 0.5em;
+    text-align: right;
+}
+#seal {
+    background-image: url("https://my.millikin.edu/muportal/common/images/background.gif");
+    background-position: 112% 0;
+    background-repeat: no-repeat;
+    border-top: 27px solid #003657;
+    text-align: center;
+    width: 100%;
+}
+#outer-wrapper {
+    margin: auto auto 1em;
+    text-align: left;
+    width: 960px;
+}
+#header {
+    background-image: url("https://my.millikin.edu/muportal/common/images/header.gif");
+    background-position: -20px 75%;
+    background-repeat: no-repeat;
+    min-height: 80px;
+    width: 100%;
+}
+#header h1 {
+    position: relative;
+    right: 99999px;
+}
+#content {
+    background-color: #F7F8F9;
+    border-top: 0 none;
+    width: 100%;
+}
+#sidebar {
+    border-top: 1px solid #B3B1B1;
+    float: right;
+    margin: 0;
+    padding: 0;
+    width: 240px;
+}
+#sidebar h3 {
+    width: 221px;
+}
+#sidebar ul {
+    padding: 0;
+}
+#sidebar li {
+    border-bottom: 1px dashed #E2E2E2;
+    border-top: 1px dashed #E2E2E2;
+    font-size: 1.05em;
+    font-weight: bold;
+    height: 40px;
+    list-style: none outside none;
+    padding: 20px 0 20px 20px;
+    width: 220px;
+}
+#sidebar a {
+    border: medium none;
+    color: gray;
+    text-decoration: none;
+}
+#sidebar a:hover {
+    color: #555555;
+}
+#sidebar a:active {
+    color: #CCCCCC;
+    position: relative;
+    top: 1px;
+}
+#sidebar li .icon {
+    float: left;
+    margin-right: 15px;
+}
+#sidebar li p {
+    display: block;
+    margin-top: 0.5em;
+}
+#main-content {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 white;
+    border-color: #B3B1B1 #B3B1B1 -moz-use-text-color -moz-use-text-color;
+    border-image: none;
+    border-style: solid solid none none;
+    border-width: 1px 1px 0 0;
+    margin: 0;
+    padding: 0;
+    width: 719px;
+}
+#main-content ul {
+    list-style: disc outside none;
+    padding-left: 1.2em;
+}
+#main-content ul ul {
+    list-style: circle outside none;
+}
+.smicon {
+    height: 45px;
+    padding-top: 12px;
+}
+.i {
+    padding: 20px 20px 30px;
+}
+.cl {
+    clear: left;
+}
+.pane-wrapper {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.left {
+    float: left;
+    margin: 0;
+    width: 319px;
+}
+.right {
+    border-left: 1px solid #B3B1B1;
+    margin-left: 312px;
+    width: 399px;
+}
+.whole {
+    width: 720px;
+}
+.subtitle {
+    background-color: #E0EBF6;
+    border-right: 1px solid #E0EBF6;
+    color: #003657;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    text-align: center;
+    width: 699px;
+}
+#update-wrapper {
+    border-right: medium none;
+    padding: 0;
+}
+#update-wrapper .right {
+    background-image: url("gradient.png");
+    background-repeat: repeat-y;
+}
+
+#maininfo {
+	padding-bottom: 0;
+	}
+
+
+table.currentinfo {
+}
+
+.currentinfo th,.currentinfo td {
+	vertical-align: top;
+	padding: .5em 0;
+}
+
+.currentinfo th {
+	width: 6em;
+	}
+
+#update-work {
+    background: none repeat scroll 0 0 #E7E8E9;
+    border: 1px dashed #E2E2E2;
+    padding: 20px;
+}
+
+#yourgiving .i {
+	 margin-bottom; 2em;
+	 }
+
+.numbers dt, .numbers dd {
+    display: block;
+}
+.number-group {
+    float: left;
+    width: 50%;
+}
+.numbers dt {
+    border-bottom: 1px dashed #E2E2E2;
+}
+.numbers dd {
+    color: #005510;
+    font-family: Georgia,sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 0.25em;
+}
+.checkbox {
+    padding-right: 12px;
+    vertical-align: middle;
+}
+#footer {
+    background-color: #D8E0E0;
+    background-image: url("https://my.millikin.edu/muportal/common/images/footer_right.gif");
+    background-position: right center;
+    background-repeat: no-repeat;
+    border-top: 1px solid #B3B1B1;
+    clear: both;
+    height: 62px;
+    padding-top: 10px;
+    width: 960px;
+}
+.toggle-button {
+    background: -moz-linear-gradient(center top , #888888, #575757) repeat scroll 0 0 transparent;
+    border: 1px solid #555555;
+    border-radius: 0.35em 0.35em 0 0;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    color: #E9E9E9;
+    cursor: pointer;
+    display: block;
+    font-size: 0.85em;
+    margin: auto;
+    outline: medium none;
+    padding: 3px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+    width: 75%;
+}
+.inner.toggle-button {
+    border-radius: 0.35em 0.35em 0.35em 0.35em;
+    font-size: 0.8em;
+    margin-top: 25px;
+    position: relative;
+    top: 13px;
+}
+.form-input.check {
+    display: block;
+}
+.form-input.radio {
+    display: block;
+}
+#update-submit {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 26px;
+}
+#update-submit.open {
+    margin-top: 16px;
+}
+.inner.toggle-button:active {
+    top: 14px;
+}
+#update-inner h4 {
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+.update-right {
+    width: 391px;
+}
+.toggle-button:hover {
+    background: -moz-linear-gradient(center top , #757575, #4B4B4B) repeat scroll 0 0 transparent;
+    text-decoration: none;
+}
+.toggle-button:active {
+    background: -moz-linear-gradient(center top , #575757, #888888) repeat scroll 0 0 transparent;
+    color: #AFAFAF;
+    top: 1px;
+}
+.toggle-button:visited {
+    color: #E9E9E9;
+}
+.button {
+    background: -moz-linear-gradient(center top , #888888, #575757) repeat scroll 0 0 transparent;
+    border: 1px solid #555555;
+    border-radius: 0.35em 0.35em 0.35em 0.35em;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    color: #E9E9E9;
+    cursor: pointer;
+    display: block;
+    font-weight: bold;
+    margin: 20px 0;
+    outline: medium none;
+    padding: 7px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+.button:hover {
+    background: -moz-linear-gradient(center top , #757575, #4B4B4B) repeat scroll 0 0 transparent;
+    text-decoration: none;
+}
+.button:active {
+    background: -moz-linear-gradient(center top , #575757, #888888) repeat scroll 0 0 transparent;
+    color: #AFAFAF;
+    position: relative;
+    top: 1px;
+}
+.button:visited {
+    color: #E9E9E9;
+}
+.photo-placeholder {
+    background: none repeat scroll 0 0 blue;
+    float: right;
+    height: 120px;
+    margin: 10px 0 10px 20px;
+    width: 120px;
+}
+.datatable {
+    border: 1px solid gray;
+    border-collapse: collapse;
+    margin-top: 1em;
+    text-align: center;
+    width: 90%;
+}
+.datatable th, .datatable td {
+    border: 1px solid gray;
+    padding: 0.4em 1em;
+}
+.even {
+    background: none repeat scroll 0 0 #CFD6D5;
+}
+.full {
+    width: 100%;
+}
+.clear {
+    clear: both;
+}
+.block {
+    display: block;
+}
+.inline {
+    display: inline;
+}
+.inline-block {
+    display: inline-block;
+}
+.fleft {
+    float: left;
+}
+.fright {
+    float: right;
+}
+.mover {
+    margin-left: -1px;
+}
+.dline {
+    width: 718px;
+}
+
