@@ -38,7 +38,7 @@ h5 {
 	padding-left: 20px;
 	color: white;
 	background: #003657;
-	width: 100%;
+	width: 95%;
 	
 }
 p {
@@ -148,7 +148,7 @@ legend	{
 
 #content {
 	width: 100%;
-	border: 1px solid #B3B1B1;
+	border: 1px solidjavascript:__doPostBack('ctl00$ContentPlaceHolder1$lbPreview','') #B3B1B1;
 	border-top: 0;
 	background-color: #F7F8F9
 }
@@ -259,13 +259,13 @@ legend	{
 
 		.right {
 			width: 399px;
-			margin-left: 319px;
+			margin-left: 312px;
 			border-left: 1px solid #B3B1B1;
 		}
 
 		.whole {
 			width: 720px;
-			border-top: 1px solid #B3B1B1;
+	
 		}
 		
 		.subtitle {
@@ -274,7 +274,7 @@ legend	{
 			padding-left: 20px;
 			background-color: #E0EBF6;
 			color: #003657;
-			border-right: 1px solid #B3B1B1;
+			border-right: 1px solid #E0EBF6;
 			text-align: center;
 		}
 
@@ -415,6 +415,9 @@ legend	{
 	margin-bottom: 0;
 }
 
+.update-right {
+	width: 391px;
+}
 
 
 .toggle-button:hover {
@@ -551,3 +554,8 @@ legend	{
 .fright	{
 	float:right;
 }
+.mover	{
+	margin-left: -1px;
+}
+.dline	{
+	width: 718px;
